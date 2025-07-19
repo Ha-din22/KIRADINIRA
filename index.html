@@ -97,6 +97,15 @@ background-color: white !important;
       font-size: 1.5rem;
     }
 
+    .logo img {
+  height: 50px; /* Sesuaikan tinggi */
+  transition: transform 0.3s ease;
+}
+
+.logo:hover img {
+  transform: scale(1.05); /* Efek hover kecil */
+}
+
     .menu {
       display: flex;
       list-style: none;
@@ -437,7 +446,10 @@ background-color: white !important;
   <!-- Navbar -->
   <nav class="navbar">
     <div class="container">
-      <a href="#" class="logo"><i class="fas fa-flask"></i>KIR SMANSA</a>
+      <a href="#" class="logo">
+  <img src="assets/img/logokir.png" alt="Logo" style="height: 30px; margin-right: 10px;">
+  <span>KIR ADINIRA</span>
+</a>
       <div class="menu-toggle" id="mobile-menu">
         <i class="fas fa-bars"></i>
       </div>
